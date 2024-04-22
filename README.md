@@ -37,9 +37,8 @@ PyPaletteAnalyzer is a Python package that analyzes the skin tone of individuals
   Cadet Blue: #7290AC
   Slate Blue: #596F88
   Dark Slate Gray: #415964
-
-  ![Cool Palette](https://github.com/vidhya03-s/PyPaletteAnalyzer/assets/145625313/faeef8d2-eff6-4c17-a881-8faa7337a40d)
   ```
+  ![Cool Palette](https://github.com/vidhya03-s/PyPaletteAnalyzer/assets/145625313/faeef8d2-eff6-4c17-a881-8faa7337a40d)
 
 
 
