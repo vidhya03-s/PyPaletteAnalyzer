@@ -1,4 +1,7 @@
 virtual_environment
 Ct
 __pycache__
-ve
+evnv
+PyPaletteAnalyzer.egg-info
+build
+analyzer
