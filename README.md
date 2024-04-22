@@ -18,6 +18,18 @@ PyPaletteAnalyzer is a Python package that analyzes the skin tone of individuals
 - Provide a predefined color palette based on the classified undertone.
 - Display the recommended color palette visually.
 
+### Example
+  #### Input
+  ![Image](https://github.com/vidhya03-s/PyPaletteAnalyzer/assets/145625313/af3d690d-df68-4092-a540-27c0ce529e60)
+
+
+  #### Output
+  ```bash
+  Predicted Undertone: Cool
+  ```
+  ![Cool Palette](https://github.com/vidhya03-s/PyPaletteAnalyzer/assets/145625313/faeef8d2-eff6-4c17-a881-8faa7337a40d)
+
+
 
 ## Proposed Design and Implementation <a id='design'></a>
 
