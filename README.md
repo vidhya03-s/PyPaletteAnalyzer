@@ -8,6 +8,7 @@ PyPaletteAnalyzer is a Python package that analyzes the skin tone of individuals
 - [Proposed Design and Implementation](#design)
 - [Installation Guide](#installation)
 - [Example Usage](#usage)
+- [Conclusion](#conclusion)
 
 
 ## Features <a id='features'></a>
