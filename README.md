@@ -7,7 +7,6 @@ PyPaletteAnalyzer is a Python package that analyzes the skin tone of individuals
 - [Features](#features)
 - [Proposed Design and Implementation](#design)
 - [Installation Guide](#installation)
-- [Example Usage](#usage)
 - [Conclusion](#conclusion)
 
 
@@ -84,37 +83,22 @@ git clone https://github.com/vidhya03-s/PyPaletteAnalyzer.git
 pip install -r requirements.txt
 ```
 
+3. Change directory to PyPaletteAnalyzer:
 
-## Example Usage <a id='usage'></a>
+```bash
+cd PyPaletteAnalyzer
+```
 
-```python
-#Import required modules
-import cv2
-from src.skin_tone import SkinToneAnalyzer
-from src.color_palette import ColorPalette
+4. Install the package:
 
-# Load an image
-image = cv2.imread("path/to/image.jpg")
+```bash
+pip install .
+```
 
-# Analyze the skin tone
-skin_tone_analyzer = SkinToneAnalyzer()
-skin_tone = skin_tone_analyzer.get_skin_tone(image)
+5. Use below command to execute the package:
 
-if skin_tone is not None:
-    # Generate a color palette
-    palette_generator = ColorPalette()
-    under_tone = palette_generator.classify_undertone(skin_tone)
-    print("Predicted Skin Tone:", under_tone)
-
-    palette = palette_generator.get_palette(skin_tone)
-    print("Recommended Color Palette:")
-    for color in palette:
-        print(color)
-
-    # Display the color palette
-    palette_generator.display_palette(palette)
-else:
-    print("No face detected in the image.")
+```bash
+analyze_image '/path/to/image'
 ```
 
 
