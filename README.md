@@ -24,10 +24,23 @@ PyPaletteAnalyzer is a Python package that analyzes the skin tone of individuals
 
 
   #### Output
-  ```bash
-  Predicted Undertone: Cool
-  ```
+  ```python
+  Predicted Skin Tone: COOL
+  Recommended Color Palette:
+  Cool Blue: #B3C6D9
+  Light Blue: #9FB1C4
+  Slate Gray: #8496AD
+  Steel Blue: #677C8F
+  Gunmetal: #516170
+  Baby Blue: #A4C2D6
+  Light Steel Blue: #8BA9C0
+  Cadet Blue: #7290AC
+  Slate Blue: #596F88
+  Dark Slate Gray: #415964
+
   ![Cool Palette](https://github.com/vidhya03-s/PyPaletteAnalyzer/assets/145625313/faeef8d2-eff6-4c17-a881-8faa7337a40d)
+  ```
+
 
 
 
