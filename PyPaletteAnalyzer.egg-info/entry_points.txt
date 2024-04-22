@@ -1,2 +1,0 @@
-[console_scripts]
-analyze_image = src.cli:parse_args
