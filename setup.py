@@ -12,10 +12,13 @@ setup(
         'webcolors',
         'matplotlib'
     ],
+    extras_require={
+        'local': []  # No additional packages required for local installation
+    },
     entry_points={
-    'console_scripts': [
-        'analyze_image=src.main:analyze_image',
-    ],
+        'console_scripts': [
+            'analyze_image=src.cli:parse_args',
+        ],
     },
     author='Team 8',
     author_email='your@email.com',
