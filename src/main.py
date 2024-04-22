@@ -20,7 +20,7 @@ def analyze_image(image_path):
         try:
             faces = skin_tone_analyzer.detect_faces(image)
             if len(faces) != 1:
-                raise MultipleFacesDetectedError("The image must contain exactly one face for analysis.")
+                raise MultipleFacesDetectedError("No face or more than one face detected.")
         except Exception as e:
             raise e
         

@@ -2,25 +2,23 @@ import numpy as np
 import webcolors
 import math
 
-
-
 class ColorPalette:
-    def __init__(self):
+    def _init_(self):
         self.color_palettes = {
-            "cool": ["#B3C6D9", "#9FB1C4", "#8496AD", "#677C8F", "#516170", "#A4C2D6", "#8BA9C0", "#7290AC", "#596F88", "#415964"],
-            "warm": ["#F7D7C3", "#EECAB0", "#E4BC9D", "#D8AB8A", "#CCA077", "#F5D0B5", "#ECC19B", "#E2B282", "#D7A06A", "#CCA051"],
-            "neutral": ["#E8E4D9", "#D8D2C4", "#C8C0AF", "#B8B09A", "#A8A085", "#E0DAD0", "#D0C8BB", "#C0B6A6", "#B0A491", "#A0927C"]
+            "cool": ["#E6E6FA", "#708090", "#4682B4", "#98FF98", "#C8A2C8", "#C0C0C0", "#CCCCFF", "#D8BFD8", "#008080", "#B0E0E6"],
+            "warm": ["#F7D7C3", "#FFDB58", "#6B8E23", "#B7410E", "#C19A6B", "#FF7F50", "#FFDAB9", "#E97451", "#8B3A3A", "#FFD700"],
+            "neutral": ["#9E7E6B", "#DAA520", "#CC5500", "#FF6F61", "#FFDAB9", "#6B8E23", "#E2725B", "#FFDB58", "#B7410E", "#C19A6B"]
         }
 
         self.color_names = {
-            "#B3C6D9": "Cool Blue", "#9FB1C4": "Light Blue", "#8496AD": "Slate Gray", "#677C8F": "Steel Blue", 
-            "#516170": "Gunmetal", "#A4C2D6": "Baby Blue", "#8BA9C0": "Light Steel Blue", "#7290AC": "Cadet Blue",
-            "#596F88": "Slate Blue", "#415964": "Dark Slate Gray", "#F7D7C3": "Peach", "#EECAB0": "Apricot",
-            "#E4BC9D": "Salmon", "#D8AB8A": "Coral", "#CCA077": "Terra Cotta", "#F5D0B5": "Bisque", "#ECC19B": "Tan",
-            "#E2B282": "Tawny", "#D7A06A": "Sienna", "#CCA051": "Rust", "#E8E4D9": "Light Gray", "#D8D2C4": "Silver",
-            "#C8C0AF": "Gray", "#B8B09A": "Dark Gray", "#A8A085": "Charcoal", "#E0DAD0": "Beige", "#D0C8BB": "Khaki",
-            "#C0B6A6": "Tan", "#B0A491": "Brownish Gray", "#A0927C": "Dark Khaki"
+            "#E6E6FA": "Cool Lavender", "#708090": "Slate Gray", "#4682B4": "Steel Blue", "#98FF98": "Mint Green",
+            "#C8A2C8": "Lilac", "#C0C0C0": "Silver", "#CCCCFF": "Periwinkle", "#D8BFD8": "Dusty Rose",
+            "#008080": "Teal", "#B0E0E6": "Ice Blue", "#F7D7C3": "Peach", "#FFDB58": "Mustard Yellow",
+            "#6B8E23": "Olive Drab", "#B7410E": "Rusty Red", "#C19A6B": "Camel Brown", "#FF7F50": "Coral",
+            "#FFDAB9": "Peachy Pink", "#E2725B": "Terra Cotta", "#9E7E6B": "Warm Taupe", "#DAA520": "Goldenrod",
+            "#CC5500": "Burnt Orange", "#FF6F61": "Coral Pink", "#415964": "Dark Slate Gray", "#E97451":"Sienna", "#8B3A3A": "Rust", "#FFD700": "Gold"
             }
+
     def get_color_names(self):
         return self.color_names
 
